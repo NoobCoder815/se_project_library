@@ -21,7 +21,6 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .nav__logo {
@@ -31,7 +30,6 @@
 
 .nav__links {
   display: flex;
-  align-items: center;
   column-gap: 20px;
   list-style-type: none;
   padding: 0;
@@ -39,7 +37,7 @@
 }
 
 .nav__link {
-  color: #000000;
+  color: #000;
   text-decoration: none;
   font-weight: bold;
 }
@@ -62,6 +60,7 @@
   margin-top: 0;
   font-size: 20px;
   line-height: 30px;
+  margin-bottom: 0;
 }
 
 .header__image {
@@ -240,9 +239,10 @@
 
 .staff {
   padding: 100px 0 140px;
-  background-image: url(/images/staff_picks_background.jpg);
+  background-image: url(../images/staff_picks_background.jpg);
   display: flex;
   flex-direction: column;
+  background-size: cover;
   align-items: center;
 }
 
@@ -267,7 +267,9 @@
   display: flex;
   max-width: 760px;
   flex-wrap: wrap;
-  margin-top: 60px;
+  margin-top: 68px;
+  margin-bottom: 0;
+  padding-left: 0;
   list-style-type: none;
   gap: 40px;
 }
@@ -382,6 +384,7 @@
 }
 
 .about__paragraph {
+  margin-top: 0;
   margin-bottom: 32px;
 }
 
@@ -440,6 +443,7 @@
 
 .footer__column-heading {
   margin: 0 0 20px;
+  font-size: 16px;
 }
 
 .footer__column-link {
@@ -462,5 +466,5 @@
 }
 
 .footer__copyright {
-  margin: 100px 0 0;
+  margin: 108px 0 0;
 }
